@@ -1,0 +1,82 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+/* CSS RESET CODE */
+
+html * {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, li, a {
+	margin: 0;
+	font-size: 10pt;
+	line-height: 1.4em;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+/* BASIC STYLES */
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: right;
+}
+
+h2 {
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+a:link {
+	color: #8e44ad;
+}
+
+a:hover {
+	color: #2980b9;
+	border-bottom: 1px solid #2980b9;
+}
+
+.page-wrapper {
+	margin: 7.5%;
+}
+
+.zen-validate-html, .zen-validate-css, .zen-license,
+.zen-accessibility, .zen-github {
+	padding: 5px;
+	border: 1px solid black;
+	box-shadow: 0px 1px 5px black;
+}
